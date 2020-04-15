@@ -5,25 +5,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Code Review</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
+  <header class="main-header">
     <h1>The Code Review</h1>
   </header>
 
   <main>
 
-    <div class="form-heading">
-      <h2>Signup for our Newsletter </h2>
+    <div class="form-header">
+      <h2>Signup for our newsletter </h2>
       <p>Get the latest news on how your code is doing right in your inbox</p>
     </div>
 
     <form action="index.html" method="post">
-      <fieldset>
+      <fieldset class="contact_info">
         <legend>Contact Information</legend>
           <label for="name">Full Name</label>
           <input required type="text" id="name" name="user_name" placeholder="Required">
@@ -53,7 +53,7 @@
           <input type="text" id="zipcode" name="user_zipcode" placeholder="ex: 90210">
       </fieldset>
 
-      <fieldset>
+      <fieldset class="newsletter">
         <legend>Newsletter</legend>
         <label>Select the newsletters you would like to receive</label>
           <input type="checkbox" id="html_news" name="user_newsletter"><label for="">HTML News</label>
