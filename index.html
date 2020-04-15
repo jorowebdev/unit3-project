@@ -41,11 +41,11 @@
 
           <label for="state">State</label>
           <select id="state" name="user_state">
-            <option value="0">Choose State</option>
-            <option value="">California</option>
-            <option value="">New York</option>
-            <option value="">Oregon</option>
-            <option value="">Washington</option>
+            <option value=" " disabled selected>Choose State</option>
+            <option value="california">California</option>
+            <option value="newyork">New York</option>
+            <option value="oregon">Oregon</option>
+            <option value="washington">Washington</option>
           </select>
 
           <label for="zipcode">Zip Code</label>
@@ -54,21 +54,21 @@
 
       <fieldset>
         <legend>Newsletter</legend>
-        <label>
-          <input type="checkbox" id="" name=""><label for=""></label>
-          <input type="checkbox" id="" name=""><label for=""></label>
-          <input type="checkbox" id="" name=""><label for=""></label>
-        </label>
-        <label>
-          <input type="radio" id="" name=""><label for=""></label>
-          <input type="radio" id="" name=""><label for=""></label>
-        </label>
-        <label for=""></label>
-        <textarea id="" name=""></textarea>
+        <label>Select the newsletters you would like to receive</label>
+          <input type="checkbox" id="html_news" name="user_newsletter"><label for="">HTML News</label>
+          <input type="checkbox" id="css_news" name="user_newsletter"><label for="">CSS News</label>
+          <input type="checkbox" id="js_news" name="user_newsletter"><label for="">Javascript News</label>
+
+        <label>Newsletter format</label>
+          <input type="radio" id="html" name="user_newsletter_form"><label for="">HTML</label>
+          <input type="radio" id="plain_text" name="user_newsletter_form"><label for="">Plain text</label>
+
+        <label for="comments">Other topics you'd like to hear about</label>
+        <textarea id="comments" name="user_comments"></textarea>
 
       </fieldset>
 
-      <button type="submit"></button>
+      <button type="submit">Sign Up</button>
     </form>
   </main>
 
