@@ -25,7 +25,8 @@ body {
     flex-direction: row;
   }
 
-  .contact-info input {
+  .contact-info input,
+  .contact-info select {
     flex-grow: 1;
     flex-basis: 75%;
   }
