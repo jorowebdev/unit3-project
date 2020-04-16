@@ -42,6 +42,12 @@ fieldset {
   padding: 0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-header {
   text-transform: uppercase;
   background: #37474f;
@@ -54,6 +60,7 @@ fieldset {
 }
 
 .form-header {
+  width: 90%;
   padding-bottom: 2em;
   border-bottom: 4px solid #37474f;
   box-shadow:
@@ -63,10 +70,14 @@ fieldset {
 }
 
 .main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1.5em 0 1.5em;
 }
 
 .contact-info {
+  width: 90%;
   display: flex;
   flex-direction: column;
   padding-bottom: 1.5em;
