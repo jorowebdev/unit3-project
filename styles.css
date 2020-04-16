@@ -36,4 +36,8 @@ body {
     flex-basis: 75%;
   }
 
+  #zipcode {
+    max-width: 25%;
+  }
+
 }
