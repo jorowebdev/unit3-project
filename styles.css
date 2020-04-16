@@ -25,6 +25,11 @@ body {
     flex-direction: row;
   }
 
+  .contact-info label {
+    flex-basis: 25%;
+    margin: auto 0;
+  }
+
   .contact-info input,
   .contact-info select {
     flex-grow: 1;
