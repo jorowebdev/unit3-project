@@ -9,3 +9,8 @@ body {
   background-color: #fafafa;
   color: #263238;
 }
+
+.contact-info .flex-pair {
+  display: flex;
+  flex-direction: column;
+}
