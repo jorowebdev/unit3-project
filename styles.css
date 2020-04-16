@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Merriweather', serif;
-  color: #b0bec5;
+  font-size: .95em;
+  color: #37474f;
   margin: 0;
   font-weight: 300;
 }
@@ -20,13 +21,25 @@ p {
 }
 
 h1,
-h2 {
+h2,
+legend {
   font-size: 1.2em;
 }
 
-h2 {
-  color: #37474f;
+h2,
+legend {
+  font-weight: 700;
   padding-bottom: 1em;
+}
+
+p {
+  color: #b0bec5;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .main-header {
@@ -46,4 +59,53 @@ h2 {
   box-shadow:
     0px 2px 0px 1px white,
     0px 4px 0px 1px #37474f;
+  margin-bottom: 5px;
+}
+
+.main-form {
+  padding: 1.5em 0 1.5em;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5em;
+}
+
+.contact-info {
+    border-bottom: 2px solid #37474f;
+    margin-bottom: 1.5em;
+}
+
+.contact-info label {
+  margin-bottom: 1em;
+}
+
+.contact-info input,
+.contact-info select {
+  width: 100%;
+  background: #eee;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1.5em;
+}
+
+.contact-info input {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.contact-info select {
+  height: 47.375px;
+}
+
+.contact-info input::placeholder,
+.contact-info select {
+  text-align: right;
+  color: #b0bec5;
+  weight: 300;
+  font-size: .9em;
+  font-style: italic;
+  padding-right: 1em;
+  padding-left: 1em;
 }
