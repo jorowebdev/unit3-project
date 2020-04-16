@@ -8,6 +8,7 @@ body {
   font-family: 'Merriweather', serif;
   background-color: #fafafa;
   color: #263238;
+  min-height: 100vh;
 }
 
 body,
@@ -16,6 +17,10 @@ body,
 .newsletter .textarea-pair {
   display: flex;
   flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .contact-info legend,
