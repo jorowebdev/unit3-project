@@ -25,6 +25,11 @@ body,
   margin-bottom: 1em;
 }
 
+.contact-info input,
+.contact-info select {
+  margin-bottom: 1.8em;
+}
+
 
 #zipcode {
   max-width: 50%;
