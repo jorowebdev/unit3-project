@@ -24,6 +24,12 @@ main {
   flex: 1;
 }
 
+.page-header,
+.form-header,
+.page-footer {
+  text-align: center;
+}
+
 fieldset {
   border: 0;
   padding: 0;
