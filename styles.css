@@ -12,6 +12,7 @@ body {
 
 body,
 .contact-info .flex-pair,
+.newsletter,
 .newsletter .textarea-pair {
   display: flex;
   flex-direction: column;
@@ -31,6 +32,9 @@ body,
   margin-bottom: 1.8em;
 }
 
+.news-label {
+  margin-bottom: 1.5em;
+}
 
 #zipcode {
   max-width: 50%;
