@@ -18,6 +18,11 @@ body,
   flex-direction: column;
 }
 
+.contact-info legend,
+.newsletter legend {
+  margin-bottom: 2em;
+}
+
 .contact-info label,
 .check-pair:first-of-type,
 .check-pair:first-of-type + div,
