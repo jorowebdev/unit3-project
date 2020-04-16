@@ -4,9 +4,9 @@
 
 body {
   margin: 0 auto;
-  max-width: 768px;
   font-family: 'Merriweather', serif;
   font-weight: 300;
+  font-size: 16px;
   background-color: #fafafa;
   color: #263238;
   min-height: 100vh;
@@ -22,12 +22,23 @@ body,
 
 main {
   flex: 1;
+  max-width: 768px;
 }
 
 .page-header,
 .form-header,
 .page-footer {
   text-align: center;
+}
+
+.page-header {
+  background-color: #263238;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.page-header h1 {
+  font-size: 1.5em;
 }
 
 fieldset {
