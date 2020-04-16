@@ -10,6 +10,7 @@ body {
   color: #263238;
 }
 
+body,
 .contact-info .flex-pair,
 .newsletter .textarea-pair {
   display: flex;
