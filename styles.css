@@ -28,7 +28,8 @@ body,
 
 .contact-info input,
 .contact-info select,
-.newsletter div:nth-of-type(2n+3) {
+.newsletter div:nth-of-type(2n+3),
+.textarea-pair {
   margin-bottom: 1.8em;
 }
 
@@ -38,6 +39,10 @@ body,
 
 #zipcode {
   max-width: 50%;
+}
+
+.btn-signup {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
