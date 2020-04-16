@@ -54,7 +54,8 @@ fieldset {
 }
 
 main,
-.contact-info {
+.contact-info,
+.newsletter {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,17 +88,24 @@ main,
     margin-bottom: 1.5em;
 }
 
-.contact-info label {
+.contact-info label,
+.newsletter > label {
   margin-bottom: 1em;
 }
 
 .contact-info input,
-.contact-info select {
+.contact-info select,
+.newsletter textarea {
+  margin-bottom: 1.5em;
+}
+
+.contact-info input,
+.contact-info select,
+.newsletter textarea {
   width: 100%;
   background: #eee;
   border-radius: 5px;
   border: none;
-  margin-bottom: 1.5em;
 }
 
 .contact-info input {
