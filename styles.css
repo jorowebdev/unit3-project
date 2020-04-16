@@ -34,7 +34,8 @@ body,
 .contact-info input,
 .contact-info select,
 .newsletter div:nth-of-type(2n+3),
-.textarea-pair {
+.textarea-pair,
+.btn-signup {
   margin-bottom: 1.8em;
 }
 
