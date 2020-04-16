@@ -2,12 +2,22 @@
   box-sizing: border-box;
 }
 
+body,
+main,
+.contact-info,
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
   font-family: 'Merriweather', serif;
   font-size: .95em;
   color: #37474f;
   margin: 0;
   font-weight: 300;
+  min-height: 100vh;
 }
 
 h1 {
@@ -33,10 +43,6 @@ button {
   font-weight: 700;
 }
 
-h2 {
-  padding-bottom: .5em;
-}
-
 p {
   color: #b0bec5;
 }
@@ -47,23 +53,30 @@ fieldset {
   padding: 0;
 }
 
+.page-header,
+.contact-info input,
+.contact-info select,
+.newsletter textarea,
+button,
+.page-footer {
+  width: 100%;
+}
+
+.page-header,
+.form-header,
+.page-footer {
+  text-align: center;
+}
+
 .page-header {
   text-transform: uppercase;
   background: #37474f;
 }
 
 .page-header,
-.form-header {
-  text-align: center;
+.form-header,
+.page-footer {
   padding: 1.5em 0;
-}
-
-main,
-.contact-info,
-.newsletter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .form-header {
@@ -78,6 +91,10 @@ main,
 .form-header,
 .main-form {
   width: 90%;
+}
+
+.form-header h2 {
+  padding-bottom: .5em;
 }
 
 .main-form {
@@ -111,8 +128,6 @@ legend,
 .contact-info select,
 .newsletter textarea,
 button {
-  width: 100%;
-  border-radius: 5px;
   border-radius: 5px;
   border: none;
 }
@@ -131,17 +146,27 @@ button {
 
 .contact-info select {
   height: 47.375px;
+  font-weight: 300;
 }
 
 .contact-info input::placeholder,
 .contact-info select {
   text-align: right;
-  color: #b0bec5;
-  weight: 300;
-  font-size: .9em;
-  font-style: italic;
   padding-right: 1em;
   padding-left: 1em;
+}
+
+.contact-info input::placeholder,
+.contact-info select,
+.page-footer h2 {
+  color: #b0bec5;
+  font-size: .9em;
+  font-style: italic;
+}
+
+.contact-info input::placeholder,
+.page-footer h2 {
+  font-weight: 300;
 }
 
 .contact-info input:last-child {
