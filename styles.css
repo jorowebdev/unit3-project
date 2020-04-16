@@ -15,7 +15,11 @@ body {
   flex-direction: column;
 }
 
-.contact-info label {
+.contact-info label,
+.check-pair:first-of-type,
+.check-pair:first-of-type + div,
+.newsletter div:nth-of-type(4),
+.textarea-pair label {
   margin-bottom: 1em;
 }
 
