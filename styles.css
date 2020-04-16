@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   max-width: 768px;
   font-family: 'Merriweather', serif;
+  font-weight: 300;
   background-color: #fafafa;
   color: #263238;
   min-height: 100vh;
