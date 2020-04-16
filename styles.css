@@ -15,6 +15,11 @@ body {
   flex-direction: column;
 }
 
+.contact-info label {
+  margin-bottom: 1em;
+}
+
+
 #zipcode {
   max-width: 50%;
 }
