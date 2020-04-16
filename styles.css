@@ -23,6 +23,7 @@ body,
 main {
   flex: 1;
   max-width: 768px;
+  align-self: center;
 }
 
 .page-header,
