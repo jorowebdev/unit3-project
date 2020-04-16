@@ -4,7 +4,7 @@
 
 body {
   margin: 0 auto;
-  max-width 768px;
+  max-width: 768px;
   font-family: font-family: 'Merriweather', serif;
   background-color: #fafafa;
   color: #263238;
@@ -23,6 +23,11 @@ body {
 
   .contact-info .flex-pair {
     flex-direction: row;
+  }
+
+  .contact-info input {
+    flex-grow: 1;
+    flex-basis: 75%;
   }
 
 }
