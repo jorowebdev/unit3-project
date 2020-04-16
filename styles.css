@@ -18,3 +18,7 @@ body {
 #zipcode {
   max-width: 50%;
 }
+
+@media (min-width: 768px) {
+
+}
