@@ -26,8 +26,7 @@ body {
 }
 
 main {
-  flex: 1 0 auto;
-  max-width: 768px;
+  width: 90%;
 }
 
 .page-header,
@@ -59,7 +58,7 @@ main {
 
 .form-header {
   margin: 0 auto;
-  width: 90%;
+  width: 99%;
   border-bottom: 4px solid #37474f;
 }
 
@@ -114,6 +113,10 @@ fieldset {
 }
 
 @media (min-width: 768px) {
+
+  main {
+    max-width: 768px;
+  }
 
   .contact-info .flex-pair {
     flex-direction: row;
