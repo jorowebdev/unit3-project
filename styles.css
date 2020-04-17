@@ -96,6 +96,7 @@ fieldset {
 
 .contact-info legend,
 .newsletter legend {
+  font-weight: 700;
   margin-bottom: 2em;
 }
 
