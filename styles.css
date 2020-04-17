@@ -5,9 +5,8 @@
 body {
   margin: 0 auto;
   font-family: 'Merriweather', serif;
-  font-weight: 300;
   font-size: 16px;
-  color: #263238
+  color: #263238;
   min-height: 100vh;
 }
 
@@ -17,6 +16,11 @@ body,
 .newsletter .textarea-pair {
   display: flex;
   flex-direction: column;
+}
+
+body,
+.page-footer h6 {
+  font-weight: 300;
 }
 
 body {
@@ -70,9 +74,13 @@ main {
   margin-bottom: .5em;
 }
 
+.form-header p,
+.page-footer {
+  color: #90a4ae;
+}
+
 .form-header p {
   font-size: .8em;
-  color: #90a4ae;
   margin-top: 0;
   margin-bottom: 2em;
 }
@@ -89,9 +97,11 @@ fieldset {
 
 .main-form input::placeholder,
 .main-form select::placeholder,
-.main-form textarea::placeholder {
+.main-form textarea::placeholder,
+.page-footer {
   font-size: .8em;
   text-align: right;
+  font-style: italic;
 }
 
 .contact-info legend,
@@ -136,13 +146,16 @@ input[type=radio] {
 }
 
 .btn-signup {
-  font-weight: 700;
   background: #ffd54f;
   width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
   border-radius: 5px;
   border: none;
+}
+
+.page-footer {
+
 }
 
 @media (min-width: 768px) {
