@@ -21,6 +21,8 @@ body,
 body,
 .main-form input::placeholder,
 .main-form textarea::placeholder,
+.contact-info input,
+.newsletter textarea,
 .page-footer h6 {
   font-weight: 300;
 }
@@ -101,8 +103,15 @@ fieldset {
 .main-form textarea::placeholder,
 .page-footer {
   font-size: .8em;
-  text-align: right;
   font-style: italic;
+}
+
+.main-form input::placeholder,
+.contact-info input,
+.main-form textarea::placeholder,
+.newsletter textarea,
+.page-footer {
+  text-align: right;
 }
 
 .contact-info legend,
@@ -132,11 +141,37 @@ fieldset {
   margin-bottom: 1.8em;
 }
 
+.contact-info input,
+.newsletter textarea,
+.btn-signup {
+  border-radius: 5px;
+}
+
+.contact-info input,
+.newsletter textarea {
+  outline-color: white;
+  background-color: #eceff1;
+  font-size: .85em;
+  padding: 1.5em 1.2em;
+  border: 4px solid #eceff1;
+}
+
 .contact-info select {
   font-size: .85em;
   font-weight: 300;
   font-style: italic;
   color: #546e7a;
+}
+
+.contact-info input:focus::placeholder,
+.newsletter textarea:focus::placeholder {
+  color: transparent;
+}
+
+.contact-info input:focus,
+.newsletter textarea:focus {
+  background-color: #fff8e1;
+  border: 4px solid #ffd54f;
 }
 
 #zipcode {
@@ -158,7 +193,6 @@ input[type=radio] {
   width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-radius: 5px;
   border: none;
 }
 
