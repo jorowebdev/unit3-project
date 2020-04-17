@@ -96,7 +96,6 @@ fieldset {
 }
 
 .main-form input::placeholder,
-.main-form select::placeholder,
 .main-form textarea::placeholder,
 .page-footer {
   font-size: .8em;
@@ -129,6 +128,13 @@ fieldset {
 .textarea-pair,
 .btn-signup {
   margin-bottom: 1.8em;
+}
+
+.contact-info select {
+  font-size: .85em;
+  font-weight: 300;
+  font-style: italic;
+  color: #263238;
 }
 
 #zipcode {
