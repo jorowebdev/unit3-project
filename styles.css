@@ -116,12 +116,18 @@ fieldset {
   margin-bottom: 1.8em;
 }
 
-.news-label {
-  margin-bottom: 1.5em;
-}
-
 #zipcode {
   max-width: 50%;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.news-label {
+  margin-bottom: 1.5em;
 }
 
 .btn-signup {
