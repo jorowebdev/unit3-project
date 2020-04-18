@@ -64,7 +64,8 @@ main {
   margin-top: 1.5em;
 }
 
-.page-header h1 {
+.page-header h1,
+.news-label {
   margin-bottom: 1.5em;
 }
 
@@ -176,8 +177,13 @@ fieldset {
 }
 
 .contact-info input:focus,
-.newsletter textarea:focus {
+.newsletter textarea:focus,
+input[type="checkbox"]:focus {
   outline-color: #c8a415;
+}
+
+.contact-info input:focus,
+.newsletter textarea:focus {
   background-color: #fff8e1;
 }
 
@@ -190,19 +196,10 @@ fieldset {
   max-width: 50%;
 }
 
-input[type=checkbox],
-input[type=radio] {
+input[type="checkbox"],
+input[type="radio"] {
   margin-left: 5px;
   margin-right: 10px;
-}
-
-input[type=checkbox]:focus {
-  outline-color: #c8a415;
-}
-
-
-.news-label {
-  margin-bottom: 1.5em;
 }
 
 .btn-signup {
