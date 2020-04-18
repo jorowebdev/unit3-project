@@ -216,7 +216,7 @@ input[type="radio"] {
   padding-top: 1em;
   padding-bottom: 1em;
   border: 4px solid #ffd54f;
-  transition: outline .2s ease-in, border-color .2s ease-in;
+  transition: outline .2s ease-in;
 }
 
 .btn-signup:hover,
