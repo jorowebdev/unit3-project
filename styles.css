@@ -201,6 +201,10 @@ input[type="checkbox"]:focus {
   max-width: 50%;
 }
 
+.newsletter textarea {
+  resize: none;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   margin-left: 5px;
