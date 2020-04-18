@@ -48,9 +48,8 @@ main {
 }
 
 .page-header {
-  background-color: #263238;
+  background-color: #ffd54f;
   text-transform: uppercase;
-  color: white;
 }
 
 .page-header h1,
