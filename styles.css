@@ -138,6 +138,7 @@ fieldset {
   margin-bottom: 1em;
 }
 
+.contact-info,
 .contact-info input,
 .contact-info select,
 .newsletter div:nth-of-type(2n+3),
@@ -189,6 +190,10 @@ input[type="checkbox"]:focus {
 .contact-info select:focus {
   outline-color: #c8a415;
   background-color: #fff8e1;
+}
+
+.contact-info {
+  border-bottom: 2px solid #37474f;
 }
 
 #zipcode {
