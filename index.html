@@ -10,20 +10,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body> <!-- start BODY ---------------------------->
   <header class="page-header">
     <h1>The Code Review</h1>
   </header>
 
-  <main>
-
-    <div class="form-header">
+  <main> <!-- start MAIN ---------------------------->
+    <div class="form-header"> <!-- start .form-header ---------------------------->
       <h2>Signup for our newsletter </h2>
       <p>Get the latest news on how your code is doing right in your inbox</p>
-    </div>
-
-    <form class="main-form" action="index.html" method="post">
-      <fieldset class="contact-info">
+    </div> <!-- end .form-header ---------------------------->
+    <form class="main-form" action="index.html" method="post"> <!-- start .main-form ---------------------------->
+      <fieldset class="contact-info"> <!-- start .contact-info ---------------------------->
         <legend>Contact Information</legend>
           <div class="flex-pair"> <!-- name -->
             <label for="name">Full Name</label>
@@ -59,11 +57,10 @@
             <label for="zipcode">Zip Code</label>
             <input type="text" id="zipcode" name="user_zipcode" placeholder="ex: 90210">
           </div>
-      </fieldset>
-
-      <fieldset class="newsletter">
+      </fieldset> <!-- end .contact-info ---------------------------->
+      <fieldset class="newsletter"> <!-- start .newsletter ---------------------------->
         <legend>Newsletter</legend>
-        <label class="news-label">Select the newsletters you would like to receive</label>
+        <label class="news-label">Select the newsletters you would like to receive</label> <!-- news options -->
           <div class="check-pair">
             <input type="checkbox" id="html_news" name="user_newsletter"><label for="html_news">HTML News</label>
           </div>
@@ -73,29 +70,25 @@
           <div class="check-pair">
             <input type="checkbox" id="js_news" name="user_newsletter"><label for="js_news">Javascript News</label>
           </div>
-
-        <label class="news-label">Newsletter format</label>
+        <label class="news-label">Newsletter format</label> <!-- news formats -->
           <div class="radio-pair">
             <label for="html"><input type="radio" id="html" name="user_newsletter_form">HTML</label>
           </div>
           <div class="radio-pair">
             <label for="plain_text"><input type="radio" id="plain_text" name="user_newsletter_form">Plain text</label>
           </div>
-
           <div class="textarea-pair">
             <label for="comments">Other topics you'd like to hear about</label>
             <textarea id="comments" name="user_comments" rows="6"></textarea>
           </div>
-
-      </fieldset>
-
-      <button class="btn-signup" type="submit">Sign Up</button>
-    </form>
+      </fieldset> <!-- end .newsletter ---------------------------->
+      <button class="btn-signup" type="submit">Sign Up</button> <!-- signup button -->
+    </form> <!-- end .main-form ---------------------------->
   </main>
 
   <footer class="page-footer">
     <h6>Copyright The Code Review</h6>
   </footer>
-</body>
+</body> <!-- end BODY ---------------------------->
 
 </html>
