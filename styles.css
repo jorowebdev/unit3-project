@@ -159,6 +159,7 @@ fieldset {
   font-size: .85em;
   padding: 1.5em 1.2em;
   border: 4px solid #eceff1;
+  transition: background-color .5s ease-in, outline .2s ease-in;
 }
 
 .contact-info select {
@@ -169,6 +170,7 @@ fieldset {
   background-color: #eceff1;
   padding: 1.5em 1.2em;
   border: 4px solid #eceff1;
+  transition: background-color .5s ease-in, outline .2s ease-in;
 }
 
 .contact-info input:focus::placeholder,
@@ -211,6 +213,7 @@ input[type="radio"] {
   padding-top: 1em;
   padding-bottom: 1em;
   border: 4px solid #ffd54f;
+  transition: outline .2s ease-in, border-color .2s ease-in;
 }
 
 .btn-signup:hover,
